@@ -1,0 +1,721 @@
+body{
+    margin: 0;
+   background-image: url(../image/background.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'urbanistregular';
+    src: url('../font/urbanist-variablefont_wght-webfont.woff')format('woff2');
+}
+.header {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid white;
+}
+.box {
+    width: 100%;
+    float: left;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.header-box {
+    width: 100%;
+    float: left;
+}
+h4 {
+    display: inline-block;
+    font-size: 18px;
+}
+.logo {
+    width: 25%;
+    float: left;
+    color: white;
+}
+.menu {
+    width: 55%;
+    float: left;
+    margin-top: 23px;
+    padding-left: 85px;
+
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    font-family: 'urbanistregular';
+    font-size: 15px;
+    padding: 0px 16px;
+    font-weight: 800;
+    color: white;
+}
+.serch-icon {
+    width: 16%;
+    float: right;
+    
+    padding: 21px 84px;
+    font-size: 22px;
+}
+.logo-img {
+    width: 16px;
+    float: left;
+}
+.Text {
+    width: 219px;
+    float: right;
+    margin-top: 23px;
+    font-family: 'urbanistregular';
+    font-size: 18px;
+}
+a.get {
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: 15px;
+    background-color: white;
+    padding: 7px;
+    font-weight: bold;
+    color: black;
+}
+.serch-icon a {
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid;
+    color: white;
+}
+.back-img img {
+    width: 100%;
+    float: left;
+}
+
+.left-s {
+    width: 58%;
+    float: left;
+}
+.ImG img {
+    width: 104%;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+}
+.left-t {
+    width: 35%;
+    float: left;
+}
+.ImG {
+    width: 46%;
+    float: right;
+}
+.main {
+    width: 90%;
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 154px;
+}
+
+.left-t h4 {
+    font-size: 23px;
+    color: white;
+    font-family: 'urbanistregular';
+    margin-top: 31px;
+}
+.left-t h1 {
+    font-size: 106px;
+    line-height: 132px;
+    margin-top: 167px;
+    color: white;
+    font-family: 'urbanistregular';
+}
+section#banner {
+    position: relative;
+}
+.botton {
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+.botton a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'urbanistregular';
+    margin: 20px;
+    font-weight: 800;
+    border: 1px solid;
+    padding: 9px;
+    border-radius: 32px;
+    background-color: white;
+    color: black;
+}
+a.b {
+    border: none;
+    background: none;
+    color: white;
+    border: 3px solid;
+}
+.imeg img {
+    width: 50%;
+    float: left;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+}
+.rights {
+    width: 33%;
+    float: left;
+    margin-top: 157px;
+    color: white;
+    text-align: center;
+    margin-left: 122px;
+}
+.details {
+    width: 56%;
+    float: left;
+    
+    margin-top: 29px;
+}
+.details p {
+    margin-top: 43px;
+    font-family: 'urbanistregular';
+    line-height: 18px;
+    font-size: 11px;
+}
+.details h3 {
+    font-size: 21px;
+    font-weight: bolder;
+    font-family: 'urbanistregular';
+}
+.one {
+    width: 100%;
+    float: left;
+    
+    border-bottom: 2px solid white;
+    padding: 231px;
+}
+.Boxe {
+    width: 100%;
+    float: left;
+}
+.Lefts {
+    width: 70%;
+    float: left;
+}
+
+.Texxt {
+    color: white;
+    text-align: center;
+    font-family: 'urbanistregular';
+    width: 69%;
+    float: right;
+    margin-top: -72px;
+}
+.Texxt h1 {
+    font-size: 106px;
+}
+
+.imgess img {
+    width: 100%;
+}
+.Texxt h1 {
+    margin-top: 60px;
+}
+.Texxt p {
+    margin-top: 60px;
+    font-size: 11px;
+    line-height: 17px;
+}
+.imgess {
+    width: 30%;
+    float: left;
+    margin-top: 209px;
+    margin-left: -100px;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+}
+.Rightss {
+    width: 30%;
+    float: right;
+}
+.Rightss img {
+    width: 78%;
+    margin-left: 99px;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+    
+}
+
+.two {
+    color: white;
+    width: 100%;
+    float: left;
+    
+    padding: 130px;
+}
+.txt {
+    width: 26%;
+    float: left;
+}
+.txt h3 {
+    font-size: 21px;
+    font-family: 'urbanistregular';
+}
+.txt p {
+    font-size: 11px;
+    font-family: 'urbanistregular';
+}
+.txt p {
+    font-size: 11px;
+    font-family: 'urbanistregular';
+}
+.rigHt h3 {
+    font-size: 21px;
+    font-family: 'urbanistregular';
+}
+.rigHt p {
+    font-size: 11px;
+    font-family: 'urbanistregular';
+}
+.centers {
+    width: 100%;
+    float: left;
+    margin-top: -384px;
+    text-align: center;
+}
+.Leftts {
+    width: 50%;
+    float: left;
+}
+.Leftts {
+    width: 100%;
+    float: left;
+}
+.lefts {
+    float: left;
+    width: 51%;
+    margin-top: 257px;
+}
+.rigHt {
+    width: 27%;
+    float: right;
+}
+.centre.img {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: -602px;
+}
+.head-text {
+    font-size: 106px;
+    font-family: 'urbanistregular';
+    color: white;
+}
+.imGes img {
+    width: 396px;
+}
+.imGes {
+    position: relative;
+}
+
+.logod img {
+    width: 27%;
+}
+.logod h3 {
+    font-size: 18px;
+    font-family: 'urbanistregular';
+}
+.under-text {
+    position: absolute;
+    top: 77px;
+    right: 44%;
+}
+.under-b {
+    width: 50%;
+    margin-top: 80px;
+}
+.under-b h4 {
+    font-size: 21px;
+    font-family: 'urbanistregular';
+    width: 212%;
+}
+input#fname {
+    width: 209%;
+    height: 44px;
+    border: 3px solid;
+    border-radius: 33px;
+    margin-left: -58px;
+    margin: 21px;
+    padding-left: 29px;
+    margin-top: 5px;
+}
+.list {
+    width: 100%;
+    
+    margin-top: 27px;
+}
+label {
+    font-size: 17px;
+    font-family: 'urbanistregular';
+    font-weight: 900;
+}
+section#four {
+    width: 100%;
+    float: left;
+    
+    background-color: white;
+    position: relative;
+}
+.back-imagge img {
+    width: 100%;
+    float: left;
+}
+.Right-Img img {
+    width: 33%;
+    height: 444px;
+}
+.Mein-Box {
+    position: absolute;
+    top: 86px;
+}
+.lEFT-TEXT {
+    width: 40%;
+    float: left;
+    margin-top: 78px;
+}
+.Right-Img {
+    width: 50%;
+    float: right;
+}
+.Right-Img img {
+    width: 477px;
+    height: 655px;
+}
+.lEFT-TEXT h5 {
+    font-size: 18px;
+    font-family: 'urbanistregular';
+}
+.lEFT-TEXT h1 {
+    font-size: 104px;
+    font-family: 'urbanistregular';
+    margin-top: 33px;
+}
+.lEFT-TEXT p {
+    font-size: 11px;
+    margin-top: 44px;
+    font-family: 'urbanistregular';
+    line-height: 13px;
+    width: 73%;
+    font-weight: 700;
+}
+.lEFT-TEXT {
+    width: 41%;
+    float: left;
+    margin-top: 70px;
+}
+.txt p {
+    margin-top: 22px;
+    line-height: 15px;
+    width: 83%;
+}
+.rigHt p {
+    margin-top: 22px;
+    line-height: 15px;
+    width: 83%;
+}
+.lEFT-TEXT a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 22px;
+    padding: 15px 23px;
+    background-color: black;
+    color: white;
+    font-family: 'urbanistregular';
+    font-weight: bold;
+}
+.five {
+    
+    float: left;
+    border-bottom: 1px;
+    color: white;
+}
+.mains-box {
+    width: 100%;
+    float: left;
+}
+.left-img {
+    width: 50%;
+    float: left;
+}
+.rigHt-textt {
+    width: 38%;
+    float: right;
+    margin-top: 158px;
+}
+.left-img {
+    width: 41%;
+    float: left;
+}
+.rigHt-textt p {
+    margin-left: 101px;
+    color: white;
+    font-size: 11px;
+    font-family: 'urbanistregular';
+    margin-top: 45px;
+    width: 105%;
+    line-height: 13px;
+}
+.left-img img {
+    width: 600px;
+    height: 624px;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+}
+.rigHt-textt a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 3px solid;
+    padding: 9px 27px;
+    border-radius: 44px;
+    margin-left: 226px;
+    font-family: 'urbanistregular';
+    font-weight: 800;
+}
+.rigHt-textt h1 {
+    width: 171%;
+    font-size: 106px;
+    font-family: 'urbanistregular';
+    text-align: center;
+}
+.rigHt-textt h1 {
+    width: 147%;
+}
+.buttons {
+    margin-top: 49px;
+}
+.six {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid;
+    color: white;
+    padding: 73px;
+}
+section#five {
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid;
+    color: white;
+}
+.Box-main {
+    width: 100%;
+    float: left;
+}
+.main-text h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 106px;
+    color: white;
+    font-family: 'urbanistregular';
+}
+.Lefts-img {
+    width: 50%;
+    float: left;
+}
+.Right-img {
+    width: 37%;
+    float: right;
+}
+
+.Img-one img {
+    width: 440px;
+    box-shadow: 0px 0px 16px 9px #ce76d6;
+}
+.main-text {
+    width: 100%;
+    float: left;
+    margin-top: -7px;
+}
+.BBox {
+    width: 100%;
+    float: left;
+    
+    margin-top: 189px;
+}
+.details a {
+    font-size: 21px;
+    color: white;
+    font-family: 'urbanistregular';
+    text-decoration: none;
+    }
+    
+    section#seven {
+        width: 100%;
+        float: left;
+        border-bottom: 2px solid;
+        color: white;
+        padding: 101px;
+        margin-top: -147px;
+    }
+    section#six {
+        width: 100%;
+        float: left;
+        margin-top: 58px;
+    }
+    section#eight {
+        float: left;
+        width: 100%;
+        padding: 112px;
+    margin-top: -163px;
+    border-bottom: 2px solid;
+    color: white;
+    }
+    section#nine {
+        width: 100%;
+        float: left;
+        background-color: white;
+        position: relative;
+    }
+    .back-g img {
+        width: 100%;
+        float: left;
+    }
+    .main-Textt {
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 10%;
+        right: 0;
+        text-align: center;
+        border-bottom: 2px solid;
+        color: black;
+        padding: 141px;
+    }
+    .main-Textt h5 {
+        font-size: 21px;
+        font-family: 'urbanistregular';
+    }
+    .main-Textt h1 {
+        font-size: 106px;
+        font-family: 'urbanistregular';
+        margin-top: 40px;
+    }
+    
+    .box-a h5 {
+        font-size: 21px;
+        font-family: 'urbanistregular';
+        
+    }
+    .box-a p {
+        font-family: 'urbanistregular';
+        font-size: 11px;
+        margin-top: 13px;
+        font-weight: 600;
+    }
+    .box-a {
+        width: 25%;
+        float: left;
+        margin: 48px;
+    }
+    .bacKground-image {
+        width: 100%;
+        float: left;
+    }
+    .bacKground-image img {
+        width: 100%;
+        float: left;
+    }
+    section#ten {
+        width: 100%;
+        float: left;
+        position: relative;
+        border-bottom: 2px solid;
+    color: white;
+    }
+    .main-boXes {
+        width: 100%;
+        float: left;
+        
+        margin-top: -311px;
+    }
+    .Lleft {
+        width: 57%;
+        float: left;
+        margin-top: -134px;
+    }
+    .Lleft h1 {
+        font-size: 106px;
+        color: white;
+        font-family: 'urbanistregular';
+    }
+    .Lleft h4 {
+        font-size: 21px;
+        font-family: 'urbanistregular';
+        color: white;
+        margin-top: 55px;
+    }
+    .RIght {
+        color: white;
+        width: 29%;
+        float: left;
+        margin-top: -200px;
+    }
+    .onee p {
+        font-size: 12px;
+        font-family: 'urbanistregular';
+        line-height: 16px;
+    }
+    .onee h4 {
+        font-size: 21px;
+        font-family: 'urbanistregular';
+        margin-top: 5px;
+    }
+    .onee {
+        margin: 47px;
+    }
+    .onee {
+        margin: 47px;
+        width: 96%;
+    }
+    .footer {
+    width: 100%;
+    float: left;
+}
+.footer-box {
+    width: 100%;
+    float: left;
+}
+.footer-a {
+    display: inline-block;
+    margin: 83px;
+}
+.footer-a h3 {
+    color: white;
+    font-size: 21px;
+    font-family: 'urbanistregular';
+}
+.footer-a li {
+    /* text-decoration: none; */
+    list-style: none;
+}
+.footer-a a {
+    text-decoration: none;
+    color: white;
+    font-family: 'urbanistregular';
+    font-size: 11px;
+    line-height: 23px;
+}
+.Main-Texxt {
+    width: 100%;
+    float: left;
+    margin-top: -108px;
+}
+.txt {
+    width: 26%;
+    float: left;
+}
